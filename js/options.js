@@ -148,7 +148,7 @@ monogatari.preferences ({
 
 	// Initial resolution used for Electron, it must match the settings inside
 	// the electron.js file. This has no effect on web deployed novels.
-	'Resolution': '800x600',
+	'Resolution': '1280x720',//'800x600',
 
 	// Speed at which dialog text will appear
 	'TextSpeed': 20,
@@ -156,5 +156,5 @@ monogatari.preferences ({
 	// Speed at which the Auto Play feature will show the next statement
 	// It is measured in seconds and starts counting after the text is
 	// completely displayed.
-	'AutoPlaySpeed': 5
+	'AutoPlaySpeed': 1
 });
