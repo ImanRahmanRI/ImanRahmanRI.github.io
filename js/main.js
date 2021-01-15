@@ -45,7 +45,7 @@ $_ready (() => {
 			'AutoPlaySpeed': 'Kecepatan Automatis',
 		
 			'Back': 'Kembali',
-			'BackButton': 'Go back',
+			'BackButton': 'Tombol Kembali',
 		
 			'Cancel': 'Batal',
 			'Close': 'Tutup',
@@ -69,55 +69,61 @@ $_ready (() => {
 		
 			'Language': 'Bahasa',
 			'Load': 'Lanjutkan',
-			'LoadAutoSaveSlots': 'Auto Saved Games',
-			'LoadButton': 'Open the Load Screen',
+			'LoadAutoSaveSlots': 'Penyimpanan Automatis',
+			'LoadButton': 'Buka tampilan loading',
 			'Loading': 'Harap Tunggu',
-			'LoadingMessage': 'Wait while the assets are loaded',
-			'LoadSlots': 'Saved Games',
-			'LocalStorageWarning': 'Local Storage is not available in this browser',
+			'LoadingMessage': 'Harap Tunggu Selama Game Dimuat',
+			'LoadSlots': 'Buka penyimpanan',
+			'LocalStorageWarning': 'Penyimpanan lokal tidak tersedia di browser ini',
 			'Log': 'Log',
 		
 			'Music': 'Suara Musik',
 		
-			'NewContent': 'There is new content available, reload the page to get the latest version',
-			'NoSavedGames': 'No saved games',
-			'NoAutoSavedGames': 'No automatically saved games',
-			'NoDialogsAvailable': 'No dialogs available. Dialogs will appear here as they show up',
+			'NewContent': 'Terdapat versi baru',
+			'NoSavedGames': 'Tidak ada file penyimpanan',
+			'NoAutoSavedGames': 'Tidak ada penyimpanan automatis',
+			'NoDialogsAvailable': 'Tidak ada dialog',
 		
 			'OK': 'OK',
-			'OrientationWarning': 'Please rotate your device to play',
-			'Overwrite': 'Overwrite',
+			'OrientationWarning': 'Harap Ganti HP Untuk Mulai Bermain',
+			'Overwrite': 'Menimpa File',
 		
-			'QuickButtons': 'Quick Menu Buttons',
-			'QuickMenu': 'Quick Menu',
-			'Quit': 'Quit',
-			'QuitButton': 'Quit Game',
+			'QuickButtons': 'Tombol Menu Cepat',
+			'QuickMenu': 'Menu cepat',
+			'Quit': 'Keluar',
+			'QuitButton': 'Keluar Game',
 		
-			'Resolution': 'Resolution',
+			'Resolution': 'Resolusi',
 		
 			'Save': 'Simpan',
-			'SaveButton': 'Open the Save Screen',
-			'SaveInSlot': 'Save in slot',
-			'SelectYourLanguage': 'Select your language',
+			'SaveButton': 'Buka menu save',
+			'SaveInSlot': 'Simpan di slot',
+			'SelectYourLanguage': 'Pilih Bahasa',
 			'Settings': 'Pengaturan',
-			'SettingsButton': 'Open the Settings Screen',
-			'Show': 'Show',
-			'Skip': 'Skip',
-			'SkipButton': 'Enter skip mode',
-			'SlotDeletion': 'Are you sure you want to delete this slot?',
-			'SlotOverwrite': 'Are you sure you want to overwrite this slot?',
-			'Sound': 'Sound Volume',
+			'SettingsButton': 'Buka menu pengaturan',
+			'Show': 'Tampilkan',
+			'Skip': 'Langkahi',
+			'SkipButton': 'Nyalakan mode langkahi',
+			'SlotDeletion': 'Apakah Kamu yakin ingin mengapus slot ini?',
+			'SlotOverwrite': 'Apakah Kamu yakin ingin menggantikan slot ini',
+			'Sound': 'Volume Suara',
 			'Start': 'Mulai',
-			'Stop': 'Stop',
+			'Stop': 'Berhenti',
 		
-			'TextSpeed': 'Text Speed',
+			'TextSpeed': 'Kecepatan text',
 		
-			'Video': 'Video Volume',
-			'Voice': 'Voice Volume',
+			'Video': 'Volume Video',
+			'Voice': 'Volume Percakapan',
 		
-			'Windowed': 'Windowed'
+			'Windowed': 'Jendela'
 		});
 		monogatari.preference("Language", "Indonesia");
 		monogatari.localize();
+		monogatari.storage ({
+			player: {
+				name: '',
+				score: 0
+			}
+		});
 	});
 });

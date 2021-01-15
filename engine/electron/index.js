@@ -34,8 +34,8 @@ function createWindow () {
 
 
 		// Set the initial window size
-		width: 960,
-		height: 540,
+		width: 1280,
+		height: 720,
 
 		// If resize is disabled, the resolution chooser will show in
 		// the settings screen.

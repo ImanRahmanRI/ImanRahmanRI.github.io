@@ -15,88 +15,88 @@ const monogatari  = Monogatari.default;
 monogatari.languageMetadata ('Indonesia', {
 	code: 'id'
 });
-
 monogatari.translation ('Indonesia', {
-	'AdvanceHelp': 'To advance through the game, left-click or tap anywhere on the game screen or press the space key',
-	'AllowPlayback': 'Click here to allow audio playback',
-	'Audio': 'Audio',
-	'AutoPlay': 'Auto',
-	'AutoPlayButton': 'Enable auto play',
-	'AutoPlaySpeed': 'Autoplay Speed',
+	'AdvanceHelp': 'Untuk melanjutkan progress permainan, klik kiri atau sentuh diarea manapun atau tekan tombol spasi',
+	'AllowPlayback': 'Klik disini untuk mengizinkan pengulangan suara',
+	'Audio': 'Suara',
+	'AutoPlay': 'Automatis',
+	'AutoPlayButton': 'Automatis dinyalakan',
+	'AutoPlaySpeed': 'Kecepatan Automatis',
 
 	'Back': 'Kembali',
-	'BackButton': 'Go back',
+	'BackButton': 'Tombol Kembali',
 
-	'Cancel': 'Cancel',
-	'Close': 'Close',
-	'Confirm': 'Do you want to quit?',
-	'Credits': 'Credits',
+	'Cancel': 'Batal',
+	'Close': 'Tutup',
+	'Confirm': 'Apakah Kamu mau keluar',
+	'Credits': 'kredit',
 
-	'Delete': 'Delete',
-	'DialogLogButton': 'Show the dialog log',
+	'Delete': 'Hapus',
+	'DialogLogButton': 'Memunculkan catatan percakapan',
 
 	'FullScreen': 'Layar Penuh',
 
 	'Gallery': 'Foto',
 
-	'Help': 'Help',
-	'Hide': 'Hide',
-	'HideButton': 'Hide the text box',
+	'Help': 'Bantuan',
+	'Hide': 'Sembunyikan',
+	'HideButton': 'Menyembunyikan kotak teks',
 
-	'iOSAudioWarning': 'Audio settings are not supported on iOS',
+	'iOSAudioWarning': 'Pengaturan audio tidak mendukung pada iOS',
 
-	'KeyboardShortcuts': 'Keyboard Shortcuts',
+	'KeyboardShortcuts': 'Pintasan Keyboard',
 
 	'Language': 'Bahasa',
-	'Load': 'Load',
-	'LoadAutoSaveSlots': 'Auto Saved Games',
-	'LoadButton': 'Open the Load Screen',
-	'Loading': 'Loading',
-	'LoadingMessage': 'Wait while the assets are loaded',
-	'LoadSlots': 'Saved Games',
-	'LocalStorageWarning': 'Local Storage is not available in this browser',
+	'Load': 'Lanjutkan',
+	'LoadAutoSaveSlots': 'Penyimpanan Automatis',
+	'LoadButton': 'Buka tampilan loading',
+	'Loading': 'Harap Tunggu',
+	'LoadingMessage': 'Harap Tunggu Selama Game Dimuat',
+	'LoadSlots': 'Buka penyimpanan',
+	'LocalStorageWarning': 'Penyimpanan lokal tidak tersedia di browser ini',
 	'Log': 'Log',
 
-	'Music': 'Music Volume',
+	'Music': 'Suara Musik',
 
-	'NewContent': 'There is new content available, reload the page to get the latest version',
-	'NoSavedGames': 'No saved games',
-	'NoAutoSavedGames': 'No automatically saved games',
-	'NoDialogsAvailable': 'No dialogs available. Dialogs will appear here as they show up',
+	'NewContent': 'Terdapat versi baru',
+	'NoSavedGames': 'Tidak ada file penyimpanan',
+	'NoAutoSavedGames': 'Tidak ada penyimpanan automatis',
+	'NoDialogsAvailable': 'Tidak ada dialog',
 
 	'OK': 'OK',
-	'OrientationWarning': 'Please rotate your device to play',
-	'Overwrite': 'Overwrite',
+	'OrientationWarning': 'Harap Ganti HP Untuk Mulai Bermain',
+	'Overwrite': 'Menimpa File',
 
-	'QuickButtons': 'Quick Menu Buttons',
-	'QuickMenu': 'Quick Menu',
-	'Quit': 'Quit',
-	'QuitButton': 'Quit Game',
+	'QuickButtons': 'Tombol Menu Cepat',
+	'QuickMenu': 'Menu cepat',
+	'Quit': 'Keluar',
+	'QuitButton': 'Keluar Game',
 
-	'Resolution': 'Resolution',
+	'Resolution': 'Resolusi',
 
 	'Save': 'Simpan',
-	'SaveButton': 'Open the Save Screen',
-	'SaveInSlot': 'Save in slot',
-	'SelectYourLanguage': 'Select your language',
-	'Settings': 'Settings',
-	'SettingsButton': 'Open the Settings Screen',
-	'Show': 'Show',
-	'Skip': 'Skip',
-	'SkipButton': 'Enter skip mode',
-	'SlotDeletion': 'Are you sure you want to delete this slot?',
-	'SlotOverwrite': 'Are you sure you want to overwrite this slot?',
-	'Sound': 'Sound Volume',
+	'SaveButton': 'Buka menu save',
+	'SaveInSlot': 'Simpan di slot',
+	'SelectYourLanguage': 'Pilih Bahasa',
+	'Settings': 'Pengaturan',
+	'SettingsButton': 'Buka menu pengaturan',
+	'Show': 'Tampilkan',
+	'Skip': 'Langkahi',
+	'SkipButton': 'Nyalakan mode langkahi',
+	'SlotDeletion': 'Apakah Kamu yakin ingin mengapus slot ini?',
+	'SlotOverwrite': 'Apakah Kamu yakin ingin menggantikan slot ini',
+	'Sound': 'Volume Suara',
 	'Start': 'Mulai',
-	'Stop': 'Stop',
+	'Stop': 'Berhenti',
 
-	'TextSpeed': 'Text Speed',
+	'TextSpeed': 'Kecepatan text',
 
-	'Video': 'Video Volume',
-	'Voice': 'Voice Volume',
+	'Video': 'Volume Video',
+	'Voice': 'Volume Percakapan',
 
-	'Windowed': 'Windowed'
+	'Windowed': 'Jendela'
 });
+
 
 monogatari.settings({
 
